@@ -1,7 +1,8 @@
 JS AMAZONA 
 
 Create Folder Structure
-    1. create root folder a
+
+    1.create root folder a
     2. add fronted and backend folder
     3. create src folder in fronted
     4. create index.html with heading js AZ in src
