@@ -1,6 +1,6 @@
 JS AMAZONA 
 
-Create Folder Structure
+1# Create Folder Structure
 
     1. create root folder a
     2. add fronted and backend folder
@@ -9,7 +9,7 @@ Create Folder Structure
     5. run npm init in frontecd folder
     6. npm install live-server(npm start[script]) 
 
-2. Design Website
+2# Design Website
 
     1. create style.css
     2. link style.css to index.html
@@ -18,7 +18,7 @@ Create Folder Structure
     5. style html, body
     6. style grid-container, header, main , and footer
 
-3. Create Static home Screen
+3# Create Static home Screen
 
     1. create ul.products
     2. create li 
