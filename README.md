@@ -1,6 +1,6 @@
 JS AMAZONA 
 
-1. Create Folder Structure
+. Create Folder Structure
     1. create root folder a
     2. add fronted and backend folder
     3. create src folder in fronted
@@ -23,3 +23,4 @@ JS AMAZONA
     4. add .product-image, .product-name, .product-brand, .produc-price
     5. style ul.product and internal divs
     6. duplicate 2 times to show 3 products
+
