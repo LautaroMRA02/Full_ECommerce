@@ -14,10 +14,10 @@ const HomeScreen = {
                         </a>
                         <div class="product_data">
                             <a href="/#/product/${product._id}" >
-                                Fit Slim Shirt
+                                ${product.name}
                             </a>
                             <p>${product.brand}</p>
-                            <p>${product.price}</p>
+                            <p>$${product.price}</p>
                         </div>
                     </div>
                 </li>

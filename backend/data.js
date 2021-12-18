@@ -46,10 +46,10 @@
         },
         {
             _id: '5',
-            name:'Nike Air Max',
+            name:'Nike Air Max 295',
             category:'shoes',
-            image:'product_1.webp',
-            price: 80,
+            image:'product_4.jpg',
+            price: 69,
             brand: "Nike",
             rating:4,
             numReviews:10,
