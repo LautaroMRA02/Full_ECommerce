@@ -1,0 +1,23 @@
+{
+  "name": "full_ecommerce",
+  "version": "1.0.0",
+  "description": "JS AMAZONA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroMRA02/Full_ECommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroMRA02/Full_ECommerce/issues"
+  },
+  "homepage": "https://github.com/LautaroMRA02/Full_ECommerce#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
