@@ -42,3 +42,15 @@ JS AMAZONA
     11. create router() function 
     12. set main_container innerHTML to HomeScreen.render()
     13. set load event of window to router() function  
+
+5# Built Url Router
+    1. Create route as rouete:screen object for Home screen 
+    2. create utils.js
+    3. export parseRequestURL()
+    4. set url as hash adress split by slash
+    5. return resource, id and verb of url 
+    6. update router()
+    7. set request as parseRequestURL()
+    8. build pasedUrl and compare with rouetes
+    9. if route exists render it , else render Error404
+    10. create screen/Error404,js and render error message
