@@ -9,7 +9,7 @@ const routes = {
 }
 
 
-const router = () => {
+const router = async() => {
 
     const request = parseRequestUrl();
     const parseUrl = 
@@ -17,7 +17,7 @@ const router = () => {
     const screen = routes[parseUrl] ? routes[parseUrl] : Error404Screen; 
 
     const  main = document.getElementById('main_container');
-    main.innerHTML = screen.render();
+    main.innerHTML = await screen.render();
 }
 
 
