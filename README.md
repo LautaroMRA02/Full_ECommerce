@@ -73,3 +73,16 @@ JS AMAZONA
     3. fetch products from '/api/products in render()
     4. make router() async and call await HomeScreen.render()
     
+8# Add Webpack 
+    1. cd frontend 
+    2. npm install -D webpack webpack-cli webpack-dev-server
+    3. npm unistall live-server
+    4."start": "webpack-dev-server --mode development  -watch-content-base --open"
+    5. move index.html, style.css ad images to frontend folder
+    6. rename app.js to index.js 
+    7. update index.html
+    8. ad <script src="main.js"></script>
+    9. npm start
+    10. npm install axios
+    11. change fetch to axios in HomeScreen
+    \
