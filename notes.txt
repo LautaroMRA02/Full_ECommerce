@@ -1,0 +1,4 @@
+
+
+
+nodemon monitorea los cambios en el codigo packages.json:7("start": "nodemon --watch bacnkend --exec babel-node backend/server.js",), aca podemos ver el npm start en donde te ejecuta el servidor con --watch es para monitorear multiples directorios 
