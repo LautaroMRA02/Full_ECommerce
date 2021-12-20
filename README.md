@@ -44,6 +44,7 @@ JS AMAZONA
     13. set load event of window to router() function  
 
 5# Built Url Router
+    
     1. Create route as rouete:screen object for Home screen 
     2. create utils.js
     3. export parseRequestURL()
@@ -56,6 +57,7 @@ JS AMAZONA
     10. create screen/Error404,js and render error message
 
 6# Create Node.JS Server
+    
     1. run npm init in root jsamazona folder
     2. npm install express
     3. create server.js
@@ -74,6 +76,7 @@ JS AMAZONA
     4. make router() async and call await HomeScreen.render()
     
 8# Add Webpack 
+
     1. cd frontend 
     2. npm install -D webpack webpack-cli webpack-dev-server
     3. npm unistall live-server
@@ -85,4 +88,13 @@ JS AMAZONA
     9. npm start
     10. npm install axios
     11. change fetch to axios in HomeScreen
-    \
+    
+#9 Install Babel For ES6 Sytax
+
+    1. npm install -D babel core, cli, node, preset-env
+    2. create .babelrc and set to @babel/preset-env
+    3. npm install -D nodemon 
+    4. set start: nodemon --watch bacnkend --exec babel-node backend/server.js
+    5. convert require to import in server.jsamazona
+    6. npm start 
+
