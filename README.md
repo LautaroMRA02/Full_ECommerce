@@ -96,5 +96,5 @@ JS AMAZONA
     3. npm install -D nodemon 
     4. set start: nodemon --watch bacnkend --exec babel-node backend/server.js
     5. convert require to import in server.jsamazona
-    6. npm start 
+    6. npm startt 
 
