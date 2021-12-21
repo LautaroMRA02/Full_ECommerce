@@ -96,5 +96,16 @@ JS AMAZONA
     3. npm install -D nodemon 
     4. set start: nodemon --watch bacnkend --exec babel-node backend/server.js
     5. convert require to import in server.jsamazona
-    6. npm startt 
+    6. npm start
 
+10# Enable Code Linting 
+
+    1. npm install -D eslint
+    2. install VScode eslint extension(estoy usando nvim)
+    3.create es.lintra and set module exports fos env to node 
+    4. set VScode setting for editor.codeActionsPnSAve source.fixAll.eslint to true
+    5. check result for linying error
+    6. npm install eslint-config-aitbnb-base and eslint-plugin-import 
+    7. set extends to airbnb-base
+    8. set parserOptions to ecmaVersion 11 and sourceType to module
+    9. set rules for no-console to 0 to ignore liting error 
