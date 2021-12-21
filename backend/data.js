@@ -7,7 +7,7 @@ export default {
             image:'product_6.webp',
             price: 80,
             brand: "Nike",
-            rating:4,
+            rating:5,
             numReviews:10,
             countInStock:5,
         },
