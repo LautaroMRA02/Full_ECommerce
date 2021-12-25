@@ -11,7 +11,6 @@ const routes = {
     "/cart": CartScreen,
 }
 
-
 const router = async() => {
 
     const request = parseRequestUrl();
@@ -22,7 +21,6 @@ const router = async() => {
     main.innerHTML = await screen.render();
     await screen.after_render();
 }
-
 
 //cuando la ventana carga me ejecuta router
 window.addEventListener("load",router)
