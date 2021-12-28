@@ -3,7 +3,7 @@ const SigninScreen = {
 	render: () => {
 		return `
 		<div class="form-container">
-			<form id="signin-form" action="">
+			<form id="signin-form">
 				<ul class="form-items">
 					<li>
 						<h1>Sign-In</h1>
