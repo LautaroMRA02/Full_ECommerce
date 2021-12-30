@@ -1,13 +1,16 @@
 import axios from 'axios';
 import Rating from '../components/Rating.js'
+import {showLoading,hideLoading} from '../utils'
 const HomeScreen = {
     render: async () => {
+        showLoading();
         const response = await axios({
             url: 'http://localhost:5000/api/products',
             headers: {
                 'Content-Type': 'application/json',
             },
         });
+        hideLoading();
         if (!response || response.statusText !== 'OK') {
             console.log(response.data)
             return `<div>Error in getting data</div>`
@@ -15,7 +18,7 @@ const HomeScreen = {
         const products = response.data;
         console.log(response.data)
         return `
-        <section> 
+        <section>
         <ul class='products'>
             ${products.map((product) => `
                 <li>

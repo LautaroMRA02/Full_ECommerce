@@ -4,7 +4,6 @@ import data from './data.js';
 import config from './config';
 import userRouter from './routers/userRouter'
 const mongoose = require('mongoose');
-// import bodyParser from 'body-parser'
 
 mongoose.connect(config.MONGODB_URL).then(()=>console.log('connected to mongodb')).catch((err) => {console.log(err.reason)});
 
