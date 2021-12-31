@@ -68,7 +68,7 @@ export const register = async ({name, email, password }) => {
 };
 
 
-export const update = async ({ name, email, password }) => {
+export const update = async ({ name, email, password}) => {
   try {
     const { _id, token } = getUserInfo();
     const response = await axios({
