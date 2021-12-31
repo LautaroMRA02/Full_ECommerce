@@ -11,7 +11,7 @@ const Header = {
             <div>
                 ${
                 	name
-                	? `<a href="/#/signin">${ name }</a>`
+                	? `<a href="/#/profile">${ name }</a>`
                 	: `<a href="/#/signin">Sign-In</a>`
                 }
 

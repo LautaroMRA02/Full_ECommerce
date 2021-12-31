@@ -1,11 +1,15 @@
-import Error404Screen from "./screens/Error404Screen.js";
-import HomeScreen  from "./screens/HomeScreen.js";
-import ProductScreen from "./screens/ProductScreen.js";
-import CartScreen from "./screens/CartScreen.js";
-import SigninScreen from "./screens/SigninScreen.js";
-import RegisterScreen from "./screens/RegisterScreen.js";
+import Error404Screen   from "./screens/Error404Screen.js";
+import HomeScreen       from "./screens/HomeScreen.js";
+import ProductScreen    from "./screens/ProductScreen.js";
+import CartScreen       from "./screens/CartScreen.js";
+import SigninScreen     from "./screens/SigninScreen.js";
+import RegisterScreen   from "./screens/RegisterScreen.js";
+import ProfileScreen    from "./screens/ProfileScreen.js";
+
 import { parseRequestUrl } from "./utils.js";
+
 import Header from './components/Header'
+
 
 const routes = {
     "/" : HomeScreen,
@@ -14,6 +18,7 @@ const routes = {
     "/cart": CartScreen,
     "/signin": SigninScreen,
     "/register":RegisterScreen,
+    "/profile":ProfileScreen,
 }
 
 const router = async() => {
@@ -27,7 +32,7 @@ const router = async() => {
 
     const  main = document.getElementById('main_container');
     main.innerHTML = await screen.render();
-    await screen.after_render();
+    if (screen.after_render) await screen.after_render();
 }
 
 //cuando la ventana carga me ejecuta router
