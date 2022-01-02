@@ -26,7 +26,6 @@ const ProductScreen = {
                     <div class="details-image">
                     <img src="./images/${product.image}" alt="${product.name}">
                     </div>
-                
                <div class="details-info">
                    <ul>
                        <li>

@@ -53,7 +53,7 @@ document
 						<input type="password" name="password" id="password" />
 					</li>
 					<li>
-						<button type="submit" class="primary" >Update</button>
+						<button type="submit" class="primary" 	>Update</button>
 					</li>
 						<li>
 						<button type="button" id="signout-button" >Sign Out</button>
