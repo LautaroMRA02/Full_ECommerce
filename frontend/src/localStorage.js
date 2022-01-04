@@ -67,7 +67,7 @@ export const getPayment = () => {
     const Payment = localStorage.getItem('payment')
     ? JSON.parse(localStorage.getItem('payment'))
     : { paymentMethod: 'paypal' };
-    return payment;
+    return Payment;
 };
 
 export const setPayment = ({ paymentMethod = 'paypal' }) => {

@@ -1,12 +1,13 @@
- import Error404Screen   from "./screens/Error404Screen.js";
+import Error404Screen   from "./screens/Error404Screen.js";
 import HomeScreen       from "./screens/HomeScreen.js";
 import ProductScreen    from "./screens/ProductScreen.js";
 import CartScreen       from "./screens/CartScreen.js";
 import SigninScreen     from "./screens/SigninScreen.js";
 import RegisterScreen   from "./screens/RegisterScreen.js";
 import ProfileScreen    from "./screens/ProfileScreen.js";
-import ShippingScreen    from "./screens/ShippingScreen.js";
+import ShippingScreen   from "./screens/ShippingScreen.js";
 import PaymentScreen    from "./screens/PaymentScreen.js";
+import PlaceOrderScreen    from "./screens/PlaceOrderScreen.js";
 
 import { parseRequestUrl } from "./utils.js";
 
@@ -23,6 +24,7 @@ const routes = {
     "/profile":     ProfileScreen,
     "/shipping":    ShippingScreen,
     "/payment":     PaymentScreen,
+    "/placeorder":  PlaceOrderScreen,
 }
 
 const router = async() => {
