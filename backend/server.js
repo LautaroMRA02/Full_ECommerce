@@ -3,16 +3,20 @@ import cors from 'cors';
 import data from './data.js';
 import config from './config';
 import userRouter from './routers/userRouter'
+import orderRouter from './routers/orderRouter'
 const mongoose = require('mongoose');
 
-mongoose.connect(config.MONGODB_URL).then(()=>console.log('connected to mongodb')).catch((err) => {console.log(err.reason)});
+mongoose.connect(config.MONGODB_URL).then(()=>console.log('connected to mongodb')).catch((err) => {console.log(err)});
 
 const app = express();
+
 app.use(cors());
 app.use(express.urlencoded());
 app.use(express.json());
 
 app.use('/api/users', userRouter);
+app.use('/api/orders', orderRouter)
+
 app.get('/api/products', (req, res) => {
   res.send(data.products);
 });

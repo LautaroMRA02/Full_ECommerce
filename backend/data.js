@@ -12,7 +12,7 @@ export default {
             countInStock:0,
         },
         {
-            _id: '2',
+            _id: '222222222222222222222222',
             name:'Air Max',
             category:'shoes',
             image:'product_1.webp',
@@ -23,7 +23,7 @@ export default {
             countInStock:5,
         },
         {
-            _id: '3',
+            _id: '333333333333333333333333',
             name:'Air Max',
             category:'shoes',
             image:'product_2.jpg',
