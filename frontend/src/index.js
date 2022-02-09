@@ -10,9 +10,8 @@ import PaymentScreen    from "./screens/PaymentScreen.js";
 import PlaceOrderScreen    from "./screens/PlaceOrderScreen.js";
 import OrderScreen    from "./screens/OrderScreen.js";
 import { parseRequestUrl } from "./utils.js";
-
+import './style.css'
 import Header from './components/Header'
-
 
 const routes = {
     "/" : HomeScreen,

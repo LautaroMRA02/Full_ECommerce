@@ -24,7 +24,7 @@ const HomeScreen = {
                 <li>
                     <div class="product">
                         <a href="/#/product/${product._id}">
-                            <img src="./images/${product.image}" alt="${product.name}">
+                            <img src="../images/${product.image}" alt="${product.name}">
                         </a>
                         <div class="product_data">
                             <a href="/#/product/${product._id}" >

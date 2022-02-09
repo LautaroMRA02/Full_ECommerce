@@ -1,7 +1,7 @@
 export default {
     products: [
         {
-            _id: '1',
+            _id: '111111111111111111111111',
             name:'Air Max 270',
             category:'shoes',
             image:'product_6.webp',
@@ -9,7 +9,7 @@ export default {
             brand: "Nike",
             rating:5,
             numReviews:10,
-            countInStock:0,
+            countInStock:1,
         },
         {
             _id: '222222222222222222222222',
@@ -34,7 +34,7 @@ export default {
             countInStock:5,
         },
         {
-            _id: '4',
+            _id: '444444444444444444444444',
             name:'Air VaporMax Plus',
             category:'shoes',
             image:'product_3.webp',
@@ -45,7 +45,7 @@ export default {
             countInStock:5,
         },
         {
-            _id: '5',
+            _id: '555555555555555555555555',
             name:'Nike Air Max 295',
             category:'shoes',
             image:'product_4.jpg',
@@ -56,7 +56,7 @@ export default {
             countInStock:5,
         },
         {
-            _id: '6',
+            _id: '666666666666666666666666',
             name:'Air Max 270',
             category:'shoes',
             image:'product_5.webp',
